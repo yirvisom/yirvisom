@@ -1,41 +1,33 @@
-# Yirviel Somé
+![banner](banner.svg)
 
-**MSc candidate in Finance** · **FMVA® & BIDA® certified** (Corporate Finance Institute)
-Financial modeling, valuation, and Python-driven data analytics. Open to full-time
-financial-analyst roles; selectively open to project-based work. Based in Casablanca, Morocco.
+**Yirviel Somé** — Linux & systems work, mostly self-hosted, mostly Fedora. On the
+RHCSA track, so expect hardening notes, labs, and reproducible setups as I go.
 
-> Public models, built from real, filed deals. Every case study publishes the model and the
-> sources each assumption traces to — 10-K, merger proxy, 8-K. Open one and check the math:
-> **[deyirviel.com](https://deyirviel.com)**
+Also on my desk: financial modeling & valuation → [deyirviel.com](https://deyirviel.com)
 
----
+## Tech & tools
 
-## Proof, not promises
+![Fedora](https://img.shields.io/badge/Fedora-51A3DE?style=for-the-badge&logo=fedora&logoColor=white)
+![RHCSA in progress](https://img.shields.io/badge/RHCSA-in_progress-6F42C1?style=for-the-badge)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![dm-crypt/LUKS](https://img.shields.io/badge/dm--crypt-LUKS-9959BF?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-FF7300?style=for-the-badge&logo=cloudflare&logoColor=white)
 
-| Claim | What to check |
+## Work
+
+| Repo | What it is |
 | --- | --- |
-| Rebuilt the **$5.0bn CBIZ take-private** from first principles — capital structure within **0.87%** of the $5.2bn committed, without ever seeing the commitment letters | [CBIZ $5.0bn LBO reconstruction](https://deyirviel.com/posts/cbiz-grant-thornton-lbo/) |
-| My first **Akdital DCF** under-implied the stock by **77.6%**; the audit is public — the error, the fix, and the line-by-line correction to **+58.3%** implied upside, in line with sell-side | [Akdital DCF + public audit](https://deyirviel.com/posts/akdital-post/) |
-| **5/5** case studies ship the artifact — model file, PDF report, and source filings | [Project index](https://deyirviel.com/posts/) |
-
-## Selected work
-
-| Project | What it proves | Where |
-| --- | --- | --- |
-| **CBIZ — as-announced LBO reconstruction** | Sponsor-net IRR **17.3%** (4.05-yr hold, $55.00/share), built from public filings alone | [Case study](https://deyirviel.com/posts/cbiz-grant-thornton-lbo/) |
-| **Akdital — DCF with public audit** | **1,852 MAD/share** intrinsic value — mistakes documented and corrected openly, not hidden | [Case study](https://deyirviel.com/posts/akdital-post/) |
-| **M&A data clean room** | Self-hosted diligence pipeline: tokenized financials, quality-of-earnings, concentration, audit trail | [Code](https://github.com/yirvisom/M-A-Clean-Room) |
-| **Casablanca quant framework** | Portfolio simulation on Bourse de Casablanca data — Monte Carlo, VaR 95%, Sharpe | [Code](https://github.com/yirvisom/casablanca-quant-framework) |
-
-## Credentials
-
-- **FMVA®** — Corporate Finance Institute · financial modeling & valuation — [verify](https://credentials.corporatefinanceinstitute.com/5cfcc21a-4157-417c-92e1-f8a96ccc71fc)
-- **BIDA®** — Corporate Finance Institute · business intelligence & data analytics — [verify](https://credentials.corporatefinanceinstitute.com/b252c0d4-9cf7-4e86-856b-b6f7f80ca367)
-- MSc candidate in Finance
-- RHCSA (Linux systems administration) — in progress
+| [M-A-Clean-Room](https://github.com/yirvisom/M-A-Clean-Room) | Self-hosted data clean room for buy-side M&A diligence — Docker + PostgreSQL pipeline, LUKS-adjacent data handling, real committed sample output. |
+| [casablanca-quant-framework](https://github.com/yirvisom/casablanca-quant-framework) | Quant research on Bourse de Casablanca data — Monte Carlo + VaR + portfolio optimization behind a LUKS-secured workflow. |
+| [DeYirviel](https://github.com/yirvisom/DeYirviel) | The site, deployed via Cloudflare Workers — 100% build, no runtime. |
 
 ## Elsewhere
 
-- Portfolio: [deyirviel.com](https://deyirviel.com)
+- Portfolio & case studies: [deyirviel.com](https://deyirviel.com)
 - LinkedIn: [in/yirviel-somé](https://linkedin.com/in/yirviel-somé)
 - Email: yirviell.some@gmail.com
