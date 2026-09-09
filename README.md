@@ -1,4 +1,4 @@
-![banner](banner.svg)
+![banner](banner.png)
 
 **Yirviel Somé** — Linux & systems work, mostly self-hosted, mostly Fedora. On the
 RHCSA track, so expect hardening notes, labs, and reproducible setups as I go.
