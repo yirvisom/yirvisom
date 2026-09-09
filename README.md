@@ -1,4 +1,4 @@
-![banner](banner.png)
+![banner](banner-rhel.png)
 
 **Yirviel Somé** — Linux & systems work, mostly self-hosted, on RHEL. On the
 RHCSA track, so expect hardening notes, labs, and reproducible setups as I go.
