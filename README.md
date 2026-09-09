@@ -1,13 +1,13 @@
 ![banner](banner.png)
 
-**Yirviel Somé** — Linux & systems work, mostly self-hosted, mostly Fedora. On the
+**Yirviel Somé** — Linux & systems work, mostly self-hosted, on RHEL. On the
 RHCSA track, so expect hardening notes, labs, and reproducible setups as I go.
 
 Also on my desk: financial modeling & valuation → [deyirviel.com](https://deyirviel.com)
 
 ## Tech & tools
 
-![Fedora](https://img.shields.io/badge/Fedora-51A3DE?style=for-the-badge&logo=fedora&logoColor=white)
+![Red Hat Enterprise Linux](https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![RHCSA in progress](https://img.shields.io/badge/RHCSA-in_progress-6F42C1?style=for-the-badge)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
