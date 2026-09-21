@@ -17,7 +17,6 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
-from datetime import date, datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -137,7 +136,6 @@ def render(u: dict) -> str:
             langs[lang] = langs.get(lang, 0) + 1
     top = max(langs.items(), key=lambda kv: kv[1])[0] if langs else "—"
 
-    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     cols = [
         (28, fmt(repos["totalCount"]), "PUBLIC REPOS", "#E0B252"),
         (218, fmt(followers), "FOLLOWERS", "#38BDF8"),
@@ -169,7 +167,7 @@ def render(u: dict) -> str:
   <rect x="28" y="28" width="120" height="2.5" rx="1.25" fill="url(#srule)"/>
 
   <text x="28" y="52" class="mono" fill="#94A3B8" font-size="11.5" letter-spacing="2.2">GITHUB SIGNAL</text>
-  <text x="972" y="52" text-anchor="end" class="mono" fill="#64748B" font-size="11">top language: {top} · updated {updated}</text>
+  <text x="972" y="52" text-anchor="end" class="mono" fill="#64748B" font-size="11">top language: {top}</text>
 
   {metrics}
   {strip}

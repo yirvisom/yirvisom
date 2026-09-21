@@ -1,4 +1,4 @@
-name: Refresh profile stats
+name: Refresh profile assets
 
 on:
   schedule:
@@ -9,11 +9,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-stats
+  group: refresh-profile
   cancel-in-progress: false
 
 jobs:
-  stats:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,19 +24,22 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate assets/stats.svg
+      - name: Refresh assets/stats.svg (GitHub API)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/build_stats.py
 
+      - name: Refresh assets/banner.svg (live MASI, TradingView CSEMA)
+        run: python3 scripts/render_banner.py
+
       - name: Commit if changed
         run: |
           if [[ -z "$(git status --porcelain)" ]]; then
-            echo "✓ stats unchanged — nothing to commit"
+            echo "✓ assets unchanged — nothing to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg
-          git commit -m "chore: refresh profile stats"
+          git add assets/stats.svg assets/banner.svg
+          git commit -m "chore: refresh profile assets"
           git push
