@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220" role="img" aria-label="casablanca-quant-framework">
+  <defs>
+    <linearGradient id="c1bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101B2E"/>
+      <stop offset="1" stop-color="#0A101D"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
+    .ink{fill:#E6EDF3}.muted{fill:#94A3B8}.dim{fill:#64748B}
+  </style>
+
+  <rect x="6" y="6" width="488" height="208" rx="16" fill="url(#c1bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- watermark -->
+  <text x="462" y="168" text-anchor="end" font-size="120" fill="#34D399" opacity="0.07" font-family="Georgia,serif">σ</text>
+
+  <!-- icon tile -->
+  <rect x="28" y="30" width="48" height="48" rx="12" fill="#34D399" fill-opacity="0.13" stroke="#34D399" stroke-opacity="0.45"/>
+  <path d="M40 62 C46 62 47 44 52 44 C57 44 58 62 64 62" fill="none" stroke="#34D399" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="40" y1="66" x2="64" y2="66" stroke="#34D399" stroke-width="1.4" opacity="0.6"/>
+
+  <!-- kind -->
+  <circle cx="426" cy="36" r="3.5" fill="#34D399"/>
+  <text x="478" y="40" text-anchor="end" class="mono muted" font-size="11" letter-spacing="1.2">PYTHON</text>
+
+  <!-- text -->
+  <text x="92" y="42" class="mono" fill="#34D399" font-size="11" letter-spacing="2.4">QUANT RESEARCH</text>
+  <text x="92" y="68" class="sans ink" font-size="18.5" font-weight="700">casablanca-quant-framework</text>
+  <text x="92" y="94" class="sans muted" font-size="13">Monte Carlo simulation, VaR 95% and portfolio</text>
+  <text x="92" y="113" class="sans muted" font-size="13">optimisation on Bourse de Casablanca data.</text>
+
+  <!-- tags -->
+  <g class="mono" font-size="11">
+    <rect x="28" y="146" width="62" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="59" y="162" text-anchor="middle" class="muted">Python</text>
+    <rect x="100" y="146" width="68" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="134" y="162" text-anchor="middle" class="muted">Jupyter</text>
+    <rect x="178" y="146" width="48" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="202" y="162" text-anchor="middle" class="muted">LUKS</text>
+  </g>
+
+  <!-- footer rule -->
+  <line x1="28" y1="188" x2="472" y2="188" stroke="#1E293B"/>
+  <text x="28" y="205" class="mono" fill="#34D399" font-size="11.5">→</text>
+  <text x="44" y="205" class="mono dim" font-size="11.5">github.com/yirvisom/casablanca-quant-framework</text>
+</svg>

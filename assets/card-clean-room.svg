@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220" role="img" aria-label="M-A-Clean-Room">
+  <defs>
+    <linearGradient id="c3bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C1B2A"/>
+      <stop offset="1" stop-color="#0A101D"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
+    .ink{fill:#E6EDF3}.muted{fill:#94A3B8}.dim{fill:#64748B}
+  </style>
+
+  <rect x="6" y="6" width="488" height="208" rx="16" fill="url(#c3bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <text x="466" y="176" text-anchor="end" class="mono" font-size="96" fill="#38BDF8" opacity="0.07">{ }</text>
+
+  <rect x="28" y="30" width="48" height="48" rx="12" fill="#38BDF8" fill-opacity="0.13" stroke="#38BDF8" stroke-opacity="0.45"/>
+  <path d="M52 42 L46 40 L40 46 L40 50 C40 57 45 62 52 65 C59 62 64 57 64 50 L64 46 L58 40 Z" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="52" cy="50" r="2.6" fill="#38BDF8"/>
+  <line x1="52" y1="52" x2="52" y2="57" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+
+  <circle cx="426" cy="36" r="3.5" fill="#38BDF8"/>
+  <text x="478" y="40" text-anchor="end" class="mono muted" font-size="11" letter-spacing="1.2">PYTHON</text>
+
+  <text x="92" y="42" class="mono" fill="#38BDF8" font-size="11" letter-spacing="2.4">M&amp;A DATA PRIVACY</text>
+  <text x="92" y="68" class="sans ink" font-size="18.5" font-weight="700">M-A-Clean-Room</text>
+  <text x="92" y="94" class="sans muted" font-size="13">Tokenised target financials for buy-side diligence —</text>
+  <text x="92" y="113" class="sans muted" font-size="13">income statement, working capital, EBITDA, safely.</text>
+
+  <g class="mono" font-size="11">
+    <rect x="28" y="146" width="62" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="59" y="162" text-anchor="middle" class="muted">Python</text>
+    <rect x="100" y="146" width="75" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="137" y="162" text-anchor="middle" class="muted">Postgres</text>
+    <rect x="185" y="146" width="68" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="219" y="162" text-anchor="middle" class="muted">Privacy</text>
+  </g>
+
+  <line x1="28" y1="188" x2="472" y2="188" stroke="#1E293B"/>
+  <text x="28" y="205" class="mono" fill="#38BDF8" font-size="11.5">→</text>
+  <text x="44" y="205" class="mono dim" font-size="11.5">github.com/yirvisom/M-A-Clean-Room</text>
+</svg>

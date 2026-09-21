@@ -1,50 +1,140 @@
-![banner](banner-market.svg)
+<p align="center">
+  <img src="assets/banner.svg" alt="Yirviel Somé — Financial Markets Analyst, Casablanca" width="100%"/>
+</p>
 
-## Hi, I'm Yirviel Somé 👋
+<p align="center">
+  <a href="https://deyirviel.com"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://deyirviel.com/bvc-feed/"><b>BVC Feed</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/yirviel-somé">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:yirviell.some@gmail.com">Email</a>
+</p>
 
-**Financial Markets Analyst** · FMVA® · BIDA® · based in Casablanca · `TZ=Africa/Casablanca`
+<p align="center">
+  <img src="https://img.shields.io/badge/open_to-market_analysis_%26_data_engineering-34D399?style=flat-square&labelColor=0B1220" alt="Open to market analysis and data engineering roles"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Casablanca_%C2%B7_UTC%2B1-0B1220?style=flat-square" alt="Casablanca, UTC+1"/>
+</p>
 
-I turn market data into decisions. My work sits at the intersection of
-**equity & market-risk analysis** and the engineering that feeds it —
-quant research on listed markets, regulatory-disclosure monitoring, and
-due-diligence data pipelines. Everything here is code with a thesis behind it.
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-## What I work on
+### `~/ $ whoami`
 
-| Repo | What it is |
-| --- | --- |
-| [casablanca-quant-framework](https://github.com/yirvisom/casablanca-quant-framework) | Quant research on Bourse de Casablanca data — Monte Carlo simulation, VaR 95%, and portfolio optimization in a reproducible, LUKS-secured workflow. |
-| [bvc-tracker](https://github.com/yirvisom/bvc-tracker) | Regulatory disclosure monitor for the Moroccan market — scrapes AMMC issuer publications, LLM-extracts disclosure signals, pushes Telegram alerts. |
-| [M-A-Clean-Room](https://github.com/yirvisom/M-A-Clean-Room) | Self-hosted data clean room for buy-side M&A diligence — tokenized target financials: income statements, working capital, concentration, EBITDA. |
+I'm a **financial markets analyst** based in Casablanca. I turn market data into
+decisions — and I build the pipelines that make those decisions reproducible:
+equity and market-risk research on the **Bourse de Casablanca**, regulatory-disclosure
+monitoring, and the Linux infrastructure underneath.
 
-> Deep dives and write-ups: [deyirviel.com](https://deyirviel.com)
+Most of my public work is code with a thesis behind it: a model, a number, a way to
+check it. **FMVA® · BIDA® · RHCSA in progress.**
 
-## Market & risk toolkit
+> **Currently** — quant research on Moroccan listed equities, a live AMMC disclosure
+> feed, and hardening my data stack on RHEL.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Monte Carlo](https://img.shields.io/badge/Monte_Carlo-VaR_95-0052CC?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![LLM Extraction](https://img.shields.io/badge/LLM_Extraction-6F42C1?style=for-the-badge)
+<img src="assets/divider.svg" alt="" width="100%"/>
 
-## The systems that run it
+## Selected work
 
-The analysis is only as good as the pipeline under it — that's why I also
-spend time on Linux. RHEL-based tooling, self-hosting, and hardening
-(**RHCSA in progress**).
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/yirvisom/casablanca-quant-framework">
+        <img src="assets/card-casablanca-quant.svg" alt="casablanca-quant-framework" width="100%"/>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/yirvisom/fin-terminal">
+        <img src="assets/card-fin-terminal.svg" alt="fin-terminal" width="100%"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/yirvisom/M-A-Clean-Room">
+        <img src="assets/card-clean-room.svg" alt="M-A-Clean-Room" width="100%"/>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://deyirviel.com">
+        <img src="assets/card-deyirviel.svg" alt="deyirviel.com" width="100%"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
-![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![LUKS](https://img.shields.io/badge/dm--crypt-LUKS-9959BF?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+## By the numbers
+
+<p align="center">
+  <img src="assets/stats.svg" alt="GitHub activity — public repos, followers, stars, contributions, streak" width="100%"/>
+</p>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+## Toolkit
+
+**Quant & markets**
+
+![Python](https://img.shields.io/badge/Python-0B1220?style=flat-square&logo=python&logoColor=34D399)
+![NumPy](https://img.shields.io/badge/NumPy-0B1220?style=flat-square&logo=numpy&logoColor=38BDF8)
+![pandas](https://img.shields.io/badge/pandas-0B1220?style=flat-square&logo=pandas&logoColor=E0B252)
+![Jupyter](https://img.shields.io/badge/Jupyter-0B1220?style=flat-square&logo=jupyter&logoColor=F37626)
+![Monte Carlo](https://img.shields.io/badge/Monte_Carlo-0B1220?style=flat-square&logoColor=34D399)
+![VaR 95%](https://img.shields.io/badge/VaR_95%25-0B1220?style=flat-square&logoColor=E0B252)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1220?style=flat-square&logo=postgresql&logoColor=38BDF8)
+
+**Engineering & systems**
+
+![Bash](https://img.shields.io/badge/Bash-0B1220?style=flat-square&logo=gnubash&logoColor=34D399)
+![Linux](https://img.shields.io/badge/Linux-0B1220?style=flat-square&logo=linux&logoColor=E6EDF3)
+![RHEL](https://img.shields.io/badge/RHEL-0B1220?style=flat-square&logo=redhat&logoColor=F87171)
+![Docker](https://img.shields.io/badge/Docker-0B1220?style=flat-square&logo=docker&logoColor=38BDF8)
+![LUKS](https://img.shields.io/badge/dm--crypt%2FLUKS-0B1220?style=flat-square&logoColor=A78BFA)
+![Git](https://img.shields.io/badge/Git-0B1220?style=flat-square&logo=git&logoColor=F87171)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0B1220?style=flat-square&logo=githubactions&logoColor=38BDF8)
+
+**Web & publishing**
+
+![Hugo](https://img.shields.io/badge/Hugo-0B1220?style=flat-square&logo=hugo&logoColor=A78BFA)
+![HTML5](https://img.shields.io/badge/HTML5-0B1220?style=flat-square&logo=html5&logoColor=E0B252)
+![CSS](https://img.shields.io/badge/CSS-0B1220?style=flat-square&logo=css&logoColor=38BDF8)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B1220?style=flat-square&logo=javascript&logoColor=E0B252)
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+## How I work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Model, then check it</b><br/>
+      <sub>Every number ships with its assumptions, its source, and a way to reproduce it. No black boxes in finance.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>Data you can trust</b><br/>
+      <sub>Pipelines over one-off spreadsheets — versioned, schedulable, and honest about their confidence.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Own the stack</b><br/>
+      <sub>From the LUKS-encrypted disk to the dashboard: I'd rather understand the whole chain than rent it.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>Write it down</b><br/>
+      <sub>Analysis that isn't explained isn't finished — the write-up is part of the deliverable.</sub>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
 
 ## Elsewhere
 
-- Portfolio & case studies: [deyirviel.com](https://deyirviel.com)
-- LinkedIn: [in/yirviel-somé](https://linkedin.com/in/yirviel-somé)
-- Email: [yirviell.some@gmail.com](mailto:yirviell.some@gmail.com)
+- **Portfolio & case studies** — [deyirviel.com](https://deyirviel.com)
+- **LinkedIn** — [in/yirviel-somé](https://www.linkedin.com/in/yirviel-somé)
+- **Email** — [yirviell.some@gmail.com](mailto:yirviell.some@gmail.com)
+
+<br/>
+
+<img src="assets/footer.svg" alt="Yirviel Somé — deyirviel.com" width="100%"/>

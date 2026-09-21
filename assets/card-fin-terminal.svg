@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220" role="img" aria-label="fin-terminal">
+  <defs>
+    <linearGradient id="c2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141326"/>
+      <stop offset="1" stop-color="#0A101D"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
+    .ink{fill:#E6EDF3}.muted{fill:#94A3B8}.dim{fill:#64748B}
+  </style>
+
+  <rect x="6" y="6" width="488" height="208" rx="16" fill="url(#c2bg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <text x="466" y="176" text-anchor="end" class="mono" font-size="104" fill="#E0B252" opacity="0.07">&gt;_</text>
+
+  <rect x="28" y="30" width="48" height="48" rx="12" fill="#E0B252" fill-opacity="0.13" stroke="#E0B252" stroke-opacity="0.45"/>
+  <path d="M40 46 L49 54 L40 62" fill="none" stroke="#E0B252" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="53" y1="62" x2="64" y2="62" stroke="#E0B252" stroke-width="2.4" stroke-linecap="round"/>
+
+  <circle cx="433" cy="36" r="3.5" fill="#E0B252"/>
+  <text x="478" y="40" text-anchor="end" class="mono muted" font-size="11" letter-spacing="1.2">SHELL</text>
+
+  <text x="92" y="42" class="mono" fill="#E0B252" font-size="11" letter-spacing="2.4">MARKET TOOLKIT</text>
+  <text x="92" y="68" class="sans ink" font-size="18.5" font-weight="700">fin-terminal</text>
+  <text x="92" y="94" class="sans muted" font-size="13">The financier's bash toolkit — live quotes, crypto,</text>
+  <text x="92" y="113" class="sans muted" font-size="13">FX and a full Bourse de Casablanca corner (MASI).</text>
+
+  <g class="mono" font-size="11">
+    <rect x="28" y="146" width="48" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="52" y="162" text-anchor="middle" class="muted">Bash</text>
+    <rect x="86" y="146" width="42" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="107" y="162" text-anchor="middle" class="muted">TUI</text>
+    <rect x="138" y="146" width="88" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="182" y="162" text-anchor="middle" class="muted">Casablanca</text>
+  </g>
+
+  <line x1="28" y1="188" x2="472" y2="188" stroke="#1E293B"/>
+  <text x="28" y="205" class="mono" fill="#E0B252" font-size="11.5">→</text>
+  <text x="44" y="205" class="mono dim" font-size="11.5">github.com/yirvisom/fin-terminal</text>
+</svg>
