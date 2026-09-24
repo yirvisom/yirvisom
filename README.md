@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Yirviel Somé — Financial Markets Analyst, Casablanca" width="100%"/>
+  <img src="assets/banner.svg" alt="Yirviel Somé — Portfolio Manager in the Making, Casablanca" width="100%"/>
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/open_to-market_analysis_%26_data_engineering-34D399?style=flat-square&labelColor=0B1220" alt="Open to market analysis and data engineering roles"/>
+  <img src="https://img.shields.io/badge/open_to-portfolio_%26_equity_research_roles-34D399?style=flat-square&labelColor=0B1220" alt="Open to portfolio and equity research roles"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Casablanca_%C2%B7_UTC%2B1-0B1220?style=flat-square" alt="Casablanca, UTC+1"/>
 </p>
@@ -19,16 +19,52 @@
 
 ### `~/ $ whoami`
 
-I'm a **financial markets analyst** based in Casablanca. I turn market data into
-decisions — and I build the pipelines that make those decisions reproducible:
-equity and market-risk research on the **Bourse de Casablanca**, regulatory-disclosure
-monitoring, and the Linux infrastructure underneath.
+A **portfolio manager in the making**, based in Casablanca. I'm training the way
+I'd verify a model: allocation first, risk second, return last — and everything
+checked against the market.
 
-Most of my public work is code with a thesis behind it: a model, a number, a way to
-check it. **FMVA® · BIDA® · RHCSA in progress.**
+That means building the full chain a PM relies on: **portfolio construction and
+optimization** on the Bourse de Casablanca, **factor and market-risk research**,
+**valuation** grounded in fundamentals, and a **macro/markets context** around all
+of it — with the data and Linux infrastructure underneath to keep it reproducible.
 
-> **Currently** — quant research on Moroccan listed equities, a live AMMC disclosure
-> feed, and hardening my data stack on RHEL.
+Most of my public work is code with a thesis behind it: a model, a number, a way
+to check it. **FMVA® · BIDA® · RHCSA in progress.**
+
+> **Currently** — a disciplined study of portfolio theory (Markowitz → Grinold &
+> Kahn → Ang), live factor research on Moroccan listed equities, and a daily
+> practice of the reading list that keeps the judgment sharp.
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+## The craft
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>01 · Allocation & construction</b><br/>
+      <sub>Mean-variance to factor models — weights as a deliberate bet, not a whim.
+      Markowitz to Ang: the discipline of the efficient frontier.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>02 · Risk, then return</b><br/>
+      <sub>VaR, stress, exposure. The question a PM asks first is what breaks the
+      book — the return decides itself afterwards.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>03 · Equity & absolute value</b><br/>
+      <sub>DCF, LBO, comps — a number that can't be defended to a committee isn't
+      a number. Valuation is the last line of defense against the story.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>04 · Markets & macro cycles</b><br/>
+      <sub>Credit cycles, factor rotations, behavioral biases. The edge of a PM is
+      mostly context — recognizing when the market disagrees with you.</sub>
+    </td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -71,6 +107,23 @@ check it. **FMVA® · BIDA® · RHCSA in progress.**
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+## The reading room
+
+The shelf a PM-in-training works through — theory, risk, and the judgment that
+keeps a gérant honest.
+
+- **Theory & asset pricing** — Markowitz, Grinold & Kahn, Ang (factor investing), Elton & Gruber, Ilmanen, Cochrane
+- **Quant & systematic** — López de Prado, Qian/Hua/Sorensen, Narang, Carver
+- **Risk** — Hull, Jorion, Crouhy/Galai/Mark
+- **Valuation & corporate** — Brealey/Myers/Allen, McKinsey, Penman, Rosenbaum & Pearl
+- **Behavior & mentality** — Kahneman, Thaler, Howard Marks, Taleb, Schwager
+- **History & markets** — Chancellor, Lowenstein (LTCM), Lewis, Soros, Reinhart & Rogoff
+
+> **Reading now** — *Asset Management* (Ang) for factor investing, alongside
+> *Expected Returns* (Ilmanen)'s risk-premium maps.
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
 ## Toolkit
 
 **Quant & markets**
@@ -79,8 +132,8 @@ check it. **FMVA® · BIDA® · RHCSA in progress.**
 ![NumPy](https://img.shields.io/badge/NumPy-0B1220?style=flat-square&logo=numpy&logoColor=38BDF8)
 ![pandas](https://img.shields.io/badge/pandas-0B1220?style=flat-square&logo=pandas&logoColor=E0B252)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0B1220?style=flat-square&logo=jupyter&logoColor=F37626)
-![Monte Carlo](https://img.shields.io/badge/Monte_Carlo-0B1220?style=flat-square&logoColor=34D399)
-![VaR 95%](https://img.shields.io/badge/VaR_95%25-0B1220?style=flat-square&logoColor=E0B252)
+![Markowitz](https://img.shields.io/badge/Markowitz-0B1220?style=flat-square&logoColor=34D399)
+![VaR / CVaR](https://img.shields.io/badge/VaR_95%25-0B1220?style=flat-square&logoColor=E0B252)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1220?style=flat-square&logo=postgresql&logoColor=38BDF8)
 
 **Engineering & systems**
@@ -107,22 +160,26 @@ check it. **FMVA® · BIDA® · RHCSA in progress.**
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>Model, then check it</b><br/>
-      <sub>Every number ships with its assumptions, its source, and a way to reproduce it. No black boxes in finance.</sub>
+      <b>Risk first, return second</b><br/>
+      <sub>Every position starts with what hurts me. If the drawdown story holds,
+      the upside takes care of itself.</sub>
     </td>
     <td width="50%" valign="top">
-      <b>Data you can trust</b><br/>
-      <sub>Pipelines over one-off spreadsheets — versioned, schedulable, and honest about their confidence.</sub>
+      <b>Thesis over prediction</b><br/>
+      <sub>I don't bet on being right — I bet on being able to explain, test, and
+      size a view. Faith in process, not forecasts.</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <b>Own the stack</b><br/>
-      <sub>From the LUKS-encrypted disk to the dashboard: I'd rather understand the whole chain than rent it.</sub>
+      <b>Reproducible research</b><br/>
+      <sub>Pipelines over one-off spreadsheets — versioned, schedulable, and honest
+      about their confidence. No black boxes in finance.</sub>
     </td>
     <td width="50%" valign="top">
-      <b>Write it down</b><br/>
-      <sub>Analysis that isn't explained isn't finished — the write-up is part of the deliverable.</sub>
+      <b>Discipline & the written record</b><br/>
+      <sub>Discipline is built one reviewed decision at a time — the write-up is
+      part of the deliverable, and the next decision gets better because of it.</sub>
     </td>
   </tr>
 </table>

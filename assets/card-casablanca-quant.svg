@@ -26,10 +26,10 @@
   <text x="478" y="40" text-anchor="end" class="mono muted" font-size="11" letter-spacing="1.2">PYTHON</text>
 
   <!-- text -->
-  <text x="92" y="42" class="mono" fill="#34D399" font-size="11" letter-spacing="2.4">QUANT RESEARCH</text>
+  <text x="92" y="42" class="mono" fill="#34D399" font-size="11" letter-spacing="2.4">PORTFOLIO CONSTRUCTION</text>
   <text x="92" y="68" class="sans ink" font-size="18.5" font-weight="700">casablanca-quant-framework</text>
-  <text x="92" y="94" class="sans muted" font-size="13">Monte Carlo simulation, VaR 95% and portfolio</text>
-  <text x="92" y="113" class="sans muted" font-size="13">optimisation on Bourse de Casablanca data.</text>
+  <text x="92" y="94" class="sans muted" font-size="13">Mean-variance and Monte Carlo, VaR 95% and</text>
+  <text x="92" y="113" class="sans muted" font-size="13">factor angles on Bourse de Casablanca data — the PM lab.</text>
 
   <!-- tags -->
   <g class="mono" font-size="11">
