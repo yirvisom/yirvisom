@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="220" viewBox="0 0 500 220" role="img" aria-label="Asset Management and Portfolio Management — the desk in one page">
+  <defs>
+    <linearGradient id="ambg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15122A"/>
+      <stop offset="1" stop-color="#0A101D"/>
+    </linearGradient>
+    <linearGradient id="amcardrule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
+    .ink{fill:#E6EDF3}.muted{fill:#94A3B8}.dim{fill:#64748B}
+  </style>
+
+  <rect x="6" y="6" width="488" height="208" rx="16" fill="url(#ambg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <text x="462" y="166" text-anchor="end" class="mono" font-size="104" fill="#A78BFA" opacity="0.08">σ</text>
+
+  <rect x="28" y="30" width="48" height="48" rx="12" fill="#A78BFA" fill-opacity="0.13" stroke="#A78BFA" stroke-opacity="0.45"/>
+  <path d="M40 62 C46 58 48 48 52 48 C56 48 58 58 64 62" fill="none" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="40" y1="66" x2="64" y2="66" stroke="#A78BFA" stroke-width="1.4" opacity="0.6"/>
+
+  <circle cx="426" cy="36" r="3.5" fill="#A78BFA"/>
+  <text x="478" y="40" text-anchor="end" class="mono muted" font-size="11" letter-spacing="1.2">PM</text>
+
+  <text x="92" y="42" class="mono" fill="#A78BFA" font-size="11" letter-spacing="2.4">ASSET MANAGEMENT</text>
+  <text x="92" y="68" class="sans ink" font-size="18.5" font-weight="700">The PM's desk</text>
+  <text x="92" y="94" class="sans muted" font-size="13">The process, the CFA® curriculum, the toolkit and</text>
+  <text x="92" y="113" class="sans muted" font-size="13">the evidence — allocation, risk, research, attribution.</text>
+
+  <g class="mono" font-size="11">
+    <rect x="28" y="146" width="82" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="69" y="162" text-anchor="middle" class="muted">Allocation</text>
+    <rect x="120" y="146" width="52" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="146" y="162" text-anchor="middle" class="muted">Risk</text>
+    <rect x="182" y="146" width="54" height="24" rx="12" fill="#0B1220" stroke="#334155"/><text x="209" y="162" text-anchor="middle" class="muted">CFA®</text>
+  </g>
+
+  <line x1="28" y1="188" x2="472" y2="188" stroke="#1E293B"/>
+  <text x="28" y="205" class="mono" fill="#A78BFA" font-size="11.5">→</text>
+  <text x="44" y="205" class="mono dim" font-size="11.5">deyirviel.com/asset-management/</text>
+</svg>

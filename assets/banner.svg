@@ -1,117 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Yirviel Somé — Portfolio Manager in the making, Casablanca">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-label="Yirviel Somé — Asset Management and Portfolio Management, Casablanca">
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="amPanel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0B1220"/>
       <stop offset="1" stop-color="#070B14"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="amRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E0B252"/>
+      <stop offset="0.6" stop-color="#E0B252" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E0B252" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="amGlow" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#34D399" stop-opacity="0.10"/>
       <stop offset="0.5" stop-color="#0B1220" stop-opacity="0"/>
       <stop offset="1" stop-color="#38BDF8" stop-opacity="0.10"/>
     </linearGradient>
-    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E0B252"/>
-      <stop offset="0.55" stop-color="#E0B252" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#E0B252" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="cardClip"><rect x="0" y="0" width="1000" height="300" rx="18"/></clipPath>
-    <clipPath id="motifClip"><rect x="470" y="60" width="504" height="184"/></clipPath>
-    <clipPath id="stripClip"><rect x="0" y="252" width="1000" height="48"/></clipPath>
+    <clipPath id="amClip"><rect width="1000" height="340" rx="18"/></clipPath>
   </defs>
 
   <style>
-    .mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
-    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
-    .ink{fill:#E6EDF3}.muted{fill:#94A3B8}.dim{fill:#64748B}
-    .mint{fill:#34D399}.gold{fill:#E0B252}.cyan{fill:#38BDF8}
-    @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
-    .fan{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.8s ease-out forwards}
-    .f2{animation-delay:.15s}.f3{animation-delay:.3s}.f4{animation-delay:.45s}
-    .f5{animation-delay:.6s}.f6{animation-delay:.75s}.f7{animation-delay:.9s}
-    @keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
-    .halo{animation:drift 9s ease-in-out infinite}
-    @media (prefers-reduced-motion: reduce){.fan,.halo{animation:none}.fan{stroke-dashoffset:0}}
+    .am-sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+    .am-mono{font-family:ui-monospace,'SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;}
+    .am-ink{fill:#E6EDF3}.am-muted{fill:#94A3B8}.am-dim{fill:#64748B}
+    .am-gold{fill:#E0B252}.am-mint{fill:#34D399}.am-cyan{fill:#38BDF8}
+    @keyframes amDraw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+    .am-curve{stroke-dasharray:1;stroke-dashoffset:1;animation:amDraw 2.6s ease-out forwards}
+    @media (prefers-reduced-motion: reduce){.am-curve{animation:none;stroke-dashoffset:0}}
   </style>
 
-  <g clip-path="url(#cardClip)">
-    <rect width="1000" height="300" fill="url(#panel)"/>
-    <rect x="0.75" y="0.75" width="998.5" height="298.5" rx="18" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <g clip-path="url(#amClip)">
+    <rect width="1000" height="340" fill="url(#amPanel)"/>
+    <rect x="0.75" y="0.75" width="998.5" height="338.5" rx="18" fill="none" stroke="#1E293B" stroke-width="1.5"/>
 
     <g opacity="0.35">
-      <line x1="0" y1="90" x2="1000" y2="90" stroke="#0F172A"/>
-      <line x1="0" y1="140" x2="1000" y2="140" stroke="#0F172A"/>
-      <line x1="0" y1="190" x2="1000" y2="190" stroke="#0F172A"/>
+      <line x1="0" y1="70" x2="1000" y2="70" stroke="#0F172A"/>
+      <line x1="0" y1="120" x2="1000" y2="120" stroke="#0F172A"/>
+      <line x1="0" y1="170" x2="1000" y2="170" stroke="#0F172A"/>
+      <line x1="0" y1="220" x2="1000" y2="220" stroke="#0F172A"/>
     </g>
 
-    <!-- title bar -->
-    <circle cx="26" cy="21" r="5.5" fill="#F87171"/>
-    <circle cx="46" cy="21" r="5.5" fill="#E0B252"/>
-    <circle cx="66" cy="21" r="5.5" fill="#34D399"/>
-    <text x="500" y="26" text-anchor="middle" class="mono dim" font-size="13">yirvisom@casablanca — ~/portfolio</text>
-    <text x="974" y="26" text-anchor="end" class="mono dim" font-size="12">deyirviel.com</text>
-    <line x1="0" y1="42" x2="1000" y2="42" stroke="#1E293B"/>
+    <!-- memo header -->
+    <text x="44" y="34" class="am-mono am-gold" font-size="11" letter-spacing="2.6">INVESTMENT MEMO</text>
+    <text x="956" y="34" text-anchor="end" class="am-mono am-dim" font-size="11" letter-spacing="1.8">CASABLANCA · 2026</text>
+    <line x1="44" y1="48" x2="956" y2="48" stroke="#1E293B"/>
 
     <!-- identity -->
-    <text x="42" y="94" class="mono mint" font-size="13" letter-spacing="3.4">PORTFOLIO MANAGER IN THE MAKING</text>
-    <text x="40" y="142" class="sans ink" font-size="44" font-weight="800" letter-spacing="-0.5">Yirviel Somé</text>
-    <rect x="42" y="158" width="150" height="3" rx="1.5" fill="url(#rule)"/>
-    <text x="42" y="188" class="mono muted" font-size="13.5">FMVA® · BIDA® · Casablanca · TZ=Africa/Casablanca</text>
+    <text x="44" y="86" class="am-mono am-mint" font-size="11.5" letter-spacing="3">ASSET MANAGEMENT · PORTFOLIO MANAGEMENT</text>
+    <text x="42" y="138" class="am-sans am-ink" font-size="46" font-weight="800" letter-spacing="-0.6">Yirviel Somé</text>
+    <rect x="44" y="154" width="186" height="3" rx="1.5" fill="url(#amRule)"/>
+    <text x="44" y="184" class="am-sans am-ink" font-size="17" font-weight="600">Allocation · Risk · Research · Attribution</text>
+    <text x="44" y="208" class="am-sans am-muted" font-size="13">The desk a portfolio manager is accountable for — built in public,</text>
+    <text x="44" y="226" class="am-sans am-muted" font-size="13">from the investment policy to the attribution report.</text>
 
-    <g class="mono" font-size="12">
-      <rect x="42" y="206" width="100" height="26" rx="13" fill="#0F172A" stroke="#334155"/>
-      <text x="92" y="223" text-anchor="middle" class="muted">Allocation</text>
-      <rect x="150" y="206" width="118" height="26" rx="13" fill="#0F172A" stroke="#334155"/>
-      <text x="209" y="223" text-anchor="middle" class="muted">Risk Mgmt</text>
-      <rect x="276" y="206" width="112" height="26" rx="13" fill="#0F172A" stroke="#334155"/>
-      <text x="332" y="223" text-anchor="middle" class="muted">Equity Res.</text>
+    <!-- credential chips -->
+    <g class="am-mono" font-size="10.5">
+      <rect x="44" y="244" width="74" height="25" rx="12.5" fill="#0F172A" stroke="#334155"/>
+      <text x="81" y="260" text-anchor="middle" class="am-muted">FMVA®</text>
+      <rect x="128" y="244" width="66" height="25" rx="12.5" fill="#0F172A" stroke="#334155"/>
+      <text x="161" y="260" text-anchor="middle" class="am-muted">BIDA®</text>
+      <rect x="204" y="244" width="168" height="25" rx="12.5" fill="#0F172A" stroke="#E0B252" stroke-opacity="0.55"/>
+      <text x="288" y="260" text-anchor="middle" class="am-gold">CFA® TRACK · PREPARING</text>
     </g>
 
-    <!-- decorative quant motif: Monte Carlo fan + distribution, no data -->
-    <g clip-path="url(#motifClip)">
-      <circle class="halo" cx="740" cy="150" r="150" fill="url(#halo)"/>
+    
+    <!-- process panel -->
+    <rect x="620" y="66" width="336" height="204" rx="14" fill="#0A101D" stroke="#1E293B"/>
+    <text x="640" y="92" class="am-mono am-gold" font-size="10.5" letter-spacing="2.2">THE PROCESS</text>
+    <text x="936" y="92" text-anchor="end" class="am-mono am-dim" font-size="9.5">01 — 05</text>
+    <line x1="640" y1="102" x2="936" y2="102" stroke="#1E293B"/>
 
-      <g opacity="0.5">
-        <line x1="470" y1="96" x2="974" y2="96" stroke="#132038" stroke-width="0.8"/>
-        <line x1="470" y1="140" x2="974" y2="140" stroke="#132038" stroke-width="0.8"/>
-        <line x1="470" y1="184" x2="974" y2="184" stroke="#132038" stroke-width="0.8"/>
-        <line x1="470" y1="228" x2="974" y2="228" stroke="#132038" stroke-width="0.8"/>
-      </g>
+    <g class="am-mono" font-size="10.5">
+      <line x1="651" y1="130" x2="651" y2="244" stroke="#334155" stroke-width="1"/>
+      <circle cx="651" cy="130" r="3" fill="#E0B252"/>
+      <text x="668" y="134" class="am-gold">01</text>
+      <text x="692" y="134" class="am-ink">Mandate &amp; IPS</text>
+      <text x="936" y="134" text-anchor="end" class="am-dim">constraints</text>
 
-      <g fill="none" stroke-linecap="round" class="fan" pathLength="1">
-        <path d="M486,200 C610,200 720,170 964,78" stroke="#34D399" stroke-width="1.4" opacity="0.35"/>
-        <path d="M486,200 C610,198 720,164 964,96" stroke="#38BDF8" stroke-width="1.4" opacity="0.40"/>
-        <path d="M486,200 C610,196 720,158 964,114" stroke="#34D399" stroke-width="1.4" opacity="0.45"/>
-        <path d="M486,200 C610,193 720,150 964,132" stroke="#E0B252" stroke-width="2.4" opacity="0.95"/>
-        <path d="M486,200 C610,191 720,146 964,150" stroke="#34D399" stroke-width="1.4" opacity="0.45"/>
-        <path d="M486,200 C610,189 720,142 964,168" stroke="#38BDF8" stroke-width="1.4" opacity="0.40"/>
-        <path d="M486,200 C610,187 720,138 964,186" stroke="#34D399" stroke-width="1.4" opacity="0.35"/>
-      </g>
-      <g fill="#E0B252" opacity="0.9">
-        <circle cx="964" cy="132" r="3.4"/>
-      </g>
-      <g fill="none" stroke="#334155" stroke-width="1" opacity="0.6">
-        <circle cx="486" cy="200" r="3.2"/>
-      </g>
-      <text x="974" y="232" text-anchor="end" class="mono dim" font-size="11" letter-spacing="1.5">ALLOCATION · VaR · FACTOR RESEARCH</text>
+      <circle cx="651" cy="158" r="3" fill="#34D399"/>
+      <text x="668" y="162" class="am-mint">02</text>
+      <text x="692" y="162" class="am-ink">Strategic allocation</text>
+      <text x="936" y="162" text-anchor="end" class="am-dim">beta</text>
+
+      <circle cx="651" cy="186" r="3" fill="#38BDF8"/>
+      <text x="668" y="190" class="am-cyan">03</text>
+      <text x="692" y="190" class="am-ink">Security selection</text>
+      <text x="936" y="190" text-anchor="end" class="am-dim">valuation</text>
+
+      <circle cx="651" cy="214" r="3" fill="#E0B252"/>
+      <text x="668" y="218" class="am-gold">04</text>
+      <text x="692" y="218" class="am-ink">Construction &amp; risk</text>
+      <text x="936" y="218" text-anchor="end" class="am-dim">VaR</text>
+
+      <circle cx="651" cy="242" r="3" fill="#34D399"/>
+      <text x="668" y="246" class="am-mint">05</text>
+      <text x="692" y="246" class="am-ink">Monitoring &amp; attribution</text>
+      <text x="936" y="246" text-anchor="end" class="am-dim">report</text>
     </g>
 
-    <!-- capability strip (static, no quotes) -->
-    <line x1="0" y1="252" x2="1000" y2="252" stroke="#1E293B"/>
-    <rect x="0" y="252" width="1000" height="48" fill="url(#glow)"/>
-    <g clip-path="url(#stripClip)">
-      <text x="28" y="282" class="mono" font-size="13.5">
-        <tspan class="mint">ALLOCATION &amp; FACTORS</tspan>
-        <tspan class="dim">   ·   </tspan>
-        <tspan class="gold">RISK FIRST — VaR / STRESS</tspan>
-        <tspan class="dim">   ·   </tspan>
-        <tspan class="cyan">EQUITY VALUATION</tspan>
-        <tspan class="dim">   ·   </tspan>
-        <tspan class="muted">DATA ENGINEERING</tspan>
-      </text>
+    <!-- faint frontier in the panel corner -->
+    <g opacity="0.35">
+      <path d="M846 250 C880 214 906 184 936 160" fill="none" stroke="#E0B252" stroke-width="1.2" class="am-curve" pathLength="1"/>
+      <circle cx="936" cy="160" r="2.5" fill="#E0B252"/>
     </g>
+
+    <!-- capability strip -->
+    <line x1="0" y1="286" x2="1000" y2="286" stroke="#1E293B"/>
+    <rect x="0" y="286" width="1000" height="54" fill="url(#amGlow)"/>
+    <text x="28" y="318" class="am-mono" font-size="11.5">
+      <tspan class="am-mint">ALLOCATION</tspan>
+      <tspan class="am-dim">  ·  </tspan>
+      <tspan class="am-gold">RISK BUDGETING</tspan>
+      <tspan class="am-dim">  ·  </tspan>
+      <tspan class="am-cyan">EQUITY RESEARCH</tspan>
+      <tspan class="am-dim">  ·  </tspan>
+      <tspan class="am-muted">ATTRIBUTION</tspan>
+    </text>
+    <text x="974" y="318" text-anchor="end" class="am-mono am-gold" font-size="10.5" letter-spacing="0.8">deyirviel.com/asset-management</text>
   </g>
 </svg>
