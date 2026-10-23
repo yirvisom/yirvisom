@@ -13,10 +13,19 @@
 <p align="center">
   <img src="https://img.shields.io/badge/open_to-asset_management_%26_portfolio_roles-34D399?style=flat-square&labelColor=0B1220" alt="Open to asset management and portfolio roles"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/CFA%C2%AE_track-preparing-E0B252?style=flat-square&labelColor=0B1220" alt="CFA Program track — preparing"/>
+  <img src="https://img.shields.io/badge/CFA%C2%AE_Program-not_yet_registered-E0B252?style=flat-square&labelColor=0B1220" alt="CFA Program — not yet registered; not a candidate"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Level_I_planned-May_2028-E0B252?style=flat-square&labelColor=0B1220" alt="Registration planned for summer 2027; Level I planned for May 2028"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Casablanca_%C2%B7_UTC%2B1-0B1220?style=flat-square" alt="Casablanca, UTC+1"/>
 </p>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+> **CFA® Program status — read this first.** I am **not yet registered** for the
+> CFA® Program and I am **not a CFA candidate**. This is a **personal project**, not a
+> current candidacy. I plan to **register in summer 2027** and to sit **Level I in
+> May 2028**.
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -28,11 +37,14 @@ process, and an attribution report that tells the truth.**
 
 My public work is the evidence trail: portfolio construction and VaR on the Bourse de
 Casablanca, a live market-data terminal, full equity valuations rebuilt from the
-filings, and a daily stock-pitch discipline. **FMVA® · BIDA® · CFA® track (preparing).**
+filings, and a daily stock-pitch discipline. **FMVA® · BIDA® · CFA® Program project
+(not yet registered, not a candidate; registration planned summer 2027, Level I planned
+May 2028).**
 
-> **Currently** — working through the CFA® curriculum domain by domain, running factor
-> and risk research on Moroccan listed equities, and keeping a daily pitch desk on the
-> record.
+> **Currently** — studying the CFA® Program curriculum as a personal project
+> (**not yet registered, not a candidate**; registration planned summer 2027, Level I
+> planned May 2028), running factor and risk research on Moroccan listed equities, and
+> keeping a daily pitch desk on the record.
 >
 > **Looking for** — asset management, portfolio analyst, investment analyst, equity
 > research, or risk analyst roles.
@@ -78,11 +90,14 @@ filings, and a daily stock-pitch discipline. **FMVA® · BIDA® · CFA® track (
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
-## The CFA® Program, mapped to the desk
+## The CFA® Program, mapped to the desk (project)
 
-I am preparing for the CFA® Program — **not yet registered** — and reading each domain as
-a desk responsibility rather than a checkbox. Ten domains, one integrated job: steward
-capital with a process that can be explained.
+To be unambiguous: I am **not yet registered for the CFA® Program** and I am **not a CFA
+candidate**. This is a **study project**, not a current candidacy. I plan to **register
+in summer 2027** and to sit **Level I in May 2028**.
+
+I am reading each domain as a desk responsibility rather than a checkbox. Ten domains,
+one integrated job: steward capital with a process that can be explained.
 
 <table>
   <tr>
